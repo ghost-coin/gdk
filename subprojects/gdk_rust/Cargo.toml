@@ -13,6 +13,7 @@ android_log = ["android_logger"]
 
 [dependencies]
 bitcoin = { version = "0.23", features = [ "use-serde" ] }
+
 rand = "0.7"
 gdk-electrum = { path = "gdk_electrum", features = ["android_log"] }
 gdk-common = { path = "gdk_common" }
