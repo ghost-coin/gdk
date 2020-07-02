@@ -172,3 +172,10 @@ impl std::convert::From<block_modes::BlockModeError> for Error {
         Error::Generic(err.to_string())
     }
 }
+
+impl std::convert::From<bitcoin::hashes::hex::Error> for Error {
+    fn from(err: bitcoin::hashes::hex::Error) -> Self {
+        Error::Generic(err.to_string())
+    }
+}
+
