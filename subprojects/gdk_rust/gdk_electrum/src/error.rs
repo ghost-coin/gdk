@@ -178,4 +178,3 @@ impl std::convert::From<bitcoin::hashes::hex::Error> for Error {
         Error::Generic(err.to_string())
     }
 }
-
