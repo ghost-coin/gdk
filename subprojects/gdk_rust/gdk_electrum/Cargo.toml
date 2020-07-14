@@ -26,6 +26,8 @@ ureq = { version = "1.0.0", features = ["json"] }
 block-modes = "0.3.3"
 aes = "0.3.2"
 tempdir = "0.3.7"
+lazy_static = "1.4.0"
+
 
 [dependencies.bitcoin]
 version = "0.23"
